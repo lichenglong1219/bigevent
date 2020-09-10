@@ -43,11 +43,24 @@ body {
 .layui-form {
   margin: 0 30px;
 }
-.reg_box,
-.login_box {
+.item-right {
   display: flex;
   justify-content: flex-end;
 }
-.login_box {
+.item-right a {
+  font-size: 12px;
+}
+.reg_box {
   display: none;
+}
+.layui-form-item {
+  position: relative;
+}
+.layui-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.layui-input {
+  padding-left: 32px;
 }
