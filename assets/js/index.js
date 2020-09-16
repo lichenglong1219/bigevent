@@ -29,7 +29,6 @@ function getUserInfo() {
                 return layui.layer.msg('获取用户信息失败')
             }
             // 调用renderAvatar渲染用户头像
-            console.log(res.data);
             renderAvatar(res.data)
         },
         //把 complete函数放在baseAPI中.判断所有的请求
